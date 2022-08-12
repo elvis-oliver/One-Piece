@@ -1,0 +1,51 @@
+
+		nav#menu ul {
+			list-style: none;
+			text-transform: uppercase;
+			position: absolute;
+			top: 0px;
+			left: 250px;
+		}
+
+		nav#menu li {
+			display: inline-block;
+			background-color: #bbdcf2;
+			padding: 20px;
+			border-radius: 10px;
+			border-style: groove;
+		}
+
+		nav#menu li:hover {
+			background-color: #3111e8;
+			transition: 2s;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background: url("../_imagens/fundo2.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		img{
+			width: 300px;
+			height: 400px;
+		}
+
+		.cards {
+			width: 150px;
+			height: 250px;
+			margin: 5px;
+			text-align: center;
+		}
+
+		.cards:hover {
+			zoom: 170%;
+		}
