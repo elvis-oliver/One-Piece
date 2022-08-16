@@ -29,7 +29,7 @@
 			justify-content: center;
 			align-items: center;
 			min-height: 100vh;
-			background: url("../_imagens/fundo.jpg");
+			background: url("../_imagens/wallpaper/oceano3.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -37,15 +37,12 @@
 		.desc {
 			background-color: rgb(202, 216, 227);
 			text-align: justify;
-			font-size: 100%;
+			
 			padding: 20px;
 			opacity: 0%;
 		}
 
-		.botão {
-			display: grid;
-			justify-content: center;
-		}
+		
 		
 		#but2 {
 			opacity: 0%;
@@ -54,7 +51,17 @@
 			opacity: 0%;
 		}
 
+		.botão {
+			justify-content: center;
+			text-align: center;
+			position: sticky;
+		}
+
 		.plus {
 			justify-content: center;
 			display: flex;
+		}
+
+		nav {
+			margin-top: 100px;
 		}

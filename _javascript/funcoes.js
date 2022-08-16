@@ -4,7 +4,7 @@
 		}
 		//index
 		function exibir (id) {
-			document.getElementById(id).style.opacity = '50%'
+			document.getElementById(id).style.opacity = '75%'
 		}
 		//index
 		function plus (but) {
