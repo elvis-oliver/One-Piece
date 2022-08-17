@@ -1,5 +1,21 @@
 
+		@font-face {
+			font-family: 'FonteMenu';
+			src: url("../_fonts/FonteMenu.ttf");
+		}
+
+		@font-face {
+			font-family: 'FonteBotão';
+			src: url("../_fonts/FonteBotão.otf");
+		}
+
+		@font-face {
+			font-family: 'FonteDescrição';
+			src: url("../_fonts/FonteDescrição.ttf");
+		}
+
 		nav#menu ul {
+			font-family: 'FonteMenu';
 			list-style: none;
 			text-transform: uppercase;
 			position: absolute;
@@ -37,7 +53,7 @@
 		.desc {
 			background-color: rgb(202, 216, 227);
 			text-align: justify;
-			
+			font-family: 'FonteDescrição';
 			padding: 20px;
 			opacity: 0%;
 		}
@@ -51,10 +67,18 @@
 			opacity: 0%;
 		}
 
-		.botão {
+		td {
 			justify-content: center;
 			text-align: center;
-			position: sticky;
+		}
+
+		.botão {
+			font-family: 'FonteBotão';
+			padding-left: 75px;
+			padding-right: 75px;
+			padding-bottom: 0px;
+			padding-top: 0px;
+			font-size: 30px;
 		}
 
 		.plus {

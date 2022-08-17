@@ -1,51 +1,62 @@
 
-		nav#menu ul {
-			list-style: none;
-			text-transform: uppercase;
-			position: absolute;
-			top: 0px;
-			left: 250px;
-		}
+	@font-face {
+		font-family: 'FonteMenu';
+		src: url("../_fonts/FonteMenu.ttf");
+	}
 
-		nav#menu li {
-			display: inline-block;
-			background-color: #bbdcf2;
-			padding: 20px;
-			border-radius: 10px;
-			border-style: groove;
-		}
 
-		nav#menu li:hover {
-			background-color: #3111e8;
-			transition: 2s;
-		}
+	nav#menu ul {
+		font-family: 'FonteMenu';
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 0px;
+		left: 250px;
+	}
 
-		a {
-			text-decoration: none;
-		}
+	nav#menu li {
+		display: inline-block;
+		background-color: #bbdcf2;
+		padding: 20px;
+		border-radius: 10px;
+		border-style: groove;
+	}
 
-		body {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			min-height: 100vh;
-			background: url("../_imagens/wallpaper/oceano5.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
+	nav#menu li:hover {
+		background-color: #ada6d7;
+		transition: 2s;
+	}
 
-		img{
-			width: 300px;
-			height: 400px;
-		}
+	a {
+		text-decoration: none;
+	}
 
-		.cards {
-			width: 150px;
-			height: 250px;
-			margin: 5px;
-			text-align: center;
-		}
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: url("../_imagens/wallpaper/oceano5.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-		.cards:hover {
-			zoom: 170%;
-		}
+	img{
+		width: 300px;
+		height: 400px;
+	}
+
+	.cards {
+		width: 150px;
+		height: 250px;
+		margin: 5px;
+	}
+
+	.cards:hover {
+		zoom: 170%;
+	}
+
+	td {
+		justify-content: center;
+		text-align: center;
+	}

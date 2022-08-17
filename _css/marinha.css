@@ -1,5 +1,16 @@
 
+		@font-face {
+			font-family: 'FonteMenu';
+			src: url("../_fonts/FonteMenu.ttf");
+		}
+
+		@font-face {
+			font-family: 'FonteMarinha';
+			src: url("../_fonts/FonteMarinha.ttf");
+		}
+
 		nav#menu ul {
+			font-family: 'FonteMenu';
 			list-style: none;
 			text-transform: uppercase;
 			position: absolute;
@@ -16,7 +27,7 @@
 		}
 
 		nav#menu li:hover {
-			background-color: #3111e8;
+			background-color: #ada6d7;
 			transition: 2s;
 		}
 
@@ -35,13 +46,14 @@
 		}
 
 		h1 {
-			background-color: aquamarine;
+			background-color: rgb(213, 229, 224);
 			left: 500px; 
 			text-align: center;
 			border-style: ridge;
 			border-radius: 25px;
 			margin: 25px;
 			opacity: 0%;
+			font-family: 'FonteMarinha';
 		}
 
 		p {
