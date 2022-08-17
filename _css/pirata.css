@@ -1,0 +1,62 @@
+
+	@font-face {
+		font-family: 'FonteMenu';
+		src: url("../_fonts/FonteMenu.ttf");
+	}
+
+
+	nav#menu ul {
+		font-family: 'FonteMenu';
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 0px;
+		left: 250px;
+	}
+
+	nav#menu li {
+		display: inline-block;
+		background-color: #bbdcf2;
+		padding: 20px;
+		border-radius: 10px;
+		border-style: groove;
+	}
+
+	nav#menu li:hover {
+		background-color: #ada6d7;
+		transition: 2s;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: url("../_imagens/wallpaper/oceano5.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	img{
+		width: 300px;
+		height: 400px;
+	}
+
+	.cards {
+		width: 150px;
+		height: 250px;
+		margin: 5px;
+	}
+
+	.cards:hover {
+		zoom: 170%;
+	}
+
+	td {
+		justify-content: center;
+		text-align: center;
+	}
