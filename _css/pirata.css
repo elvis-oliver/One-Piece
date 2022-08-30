@@ -1,62 +1,77 @@
 
-	@font-face {
-		font-family: 'FonteMenu';
-		src: url("../_fonts/FonteMenu.ttf");
-	}
+@font-face {
+	font-family: 'FonteMenu';
+	src: url("../_fonts/FonteMenu.ttf");
+}
 
+html {
+	
+	width:100%;
+	height:100%;
+}
 
-	nav#menu ul {
-		font-family: 'FonteMenu';
-		list-style: none;
-		text-transform: uppercase;
-		position: absolute;
-		top: 0px;
-		left: 250px;
-	}
+nav#menu ul {
+	font-family: 'FonteMenu';
+	text-transform: uppercase;
+	position: absolute;
+	justify-content: center;
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	top: 0px;
+	padding: 0px;
+}
 
-	nav#menu li {
-		display: inline-block;
-		background-color: #bbdcf2;
-		padding: 20px;
-		border-radius: 10px;
-		border-style: groove;
-	}
+nav#menu li {
+	display: inline-block;
+	text-align: center;
+	background-color: #bbdcf2;
+	padding: 20px;
+	width: 260px;
+	border-radius: 10px;
+	border-style: groove;
+}
 
-	nav#menu li:hover {
-		background-color: #ada6d7;
-		transition: 2s;
-	}
+nav#menu li:hover {
+	background-color: #ada6d7;
+	transition: 2s;
+}
 
-	a {
-		text-decoration: none;
-	}
+a {
+	text-decoration: none;
+}
 
-	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-height: 100vh;
-		background: url("../_imagens/wallpaper/oceano5.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+body {
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	background: url("../_imagens/wallpaper/oceano8.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-	img{
-		width: 300px;
-		height: 400px;
-	}
+img {
+	width: 300px;
+	height: 400px;
+}
 
-	.cards {
-		width: 150px;
-		height: 250px;
-		margin: 5px;
-	}
+.cards {
+	width: 150px;
+	height: 250px;
+	margin: 5px;
+}
 
-	.cards:hover {
-		zoom: 170%;
-	}
+.cards:hover {
+	zoom: 170%;
+}
 
-	td {
-		justify-content: center;
-		text-align: center;
-	}
+td {
+	justify-content: center;
+	text-align: center;
+}
+
+table {
+	margin-top: 60px;
+	justify-content: center;
+	text-align: center;
+}
