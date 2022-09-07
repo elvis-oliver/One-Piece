@@ -1,12 +1,24 @@
 function exibir (id) {
-    document.getElementById(id).style.opacity = '75%'
-    if (id === 'DescTres'){
-        document.getElementById('but4').style.opacity = '100%'
+    if (document.getElementById(id).style.opacity == '0'
+    || document.getElementById(id).style.opacity == '') {
+        document.getElementById(id).style.opacity = '75%';
     }
+    else {
+        document.getElementById(id).style.opacity = '0%';
+    }
+    if (id === 'DescTres') {
+        document.getElementById('but4').style.opacity = '100%'
+    } 
 }
 
 function plus (but) {
-    document.getElementById(but).style.opacity = '100%';
+    if (document.getElementById(but).style.opacity == '0'
+    || document.getElementById(but).style.opacity == '') {
+        document.getElementById(but).style.opacity = '100%';
+    }
+    else {
+        document.getElementById(but).style.opacity = '0%';
+    }
 }
 
 function esconder (botão2, botão3, desc1, desc2, desc3) {
